@@ -14,3 +14,6 @@ py -m pip freeze --local > requirements.txt
 
 ## Create the Procfile
 echo web: python app.py > Procfile
+
+# Install Heroku
+npm install -g heroku
