@@ -7,3 +7,10 @@ touch app.py
 touch env.py
 
 # Ensure that env.py is added to .gitignore
+
+# Deploying to Heroku
+## Create the requirements.txt file
+py -m pip freeze --local > requirements.txt
+
+## Create the Procfile
+echo web: python app.py > Procfile
