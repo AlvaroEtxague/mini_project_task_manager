@@ -17,3 +17,8 @@ echo web: python app.py > Procfile
 
 # Install Heroku
 npm install -g heroku
+
+# Install flask-pymongo
+ py -m pip install flask-pymongo
+# Install dnspython
+ py -m pip install dnspython

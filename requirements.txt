@@ -10,6 +10,7 @@ colorama==0.4.4
 Django==3.2.4
 dnspython==2.1.0
 Flask==2.0.1
+Flask-PyMongo==2.3.0
 google-auth==1.32.0
 google-auth-oauthlib==0.4.4
 gspread==3.7.0
